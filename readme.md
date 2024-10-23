@@ -1,4 +1,4 @@
-# Node JS - Backend Assignment
+# Floww.ai Node JS - Backend Assignment
 
 ### Assignment: Personal Expense Tracker
 
