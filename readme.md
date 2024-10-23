@@ -43,7 +43,7 @@ steps to achieve outcome (check the app.http file)
 
 ### 2 - `Login with same given sample user credentials. You will receive a jsonToken for authentication in response.` 
 
-### 3 - `Add the Json token for all the RestAPI's for successfully passing the authentication test and also to get the required API results.`
+### 3 - `Add the Json token for all the RestAPI's for successfully passing the authentication test and also to get the required API results through CRUD operations.`
 ________________________
 
 ### sample users table details:
