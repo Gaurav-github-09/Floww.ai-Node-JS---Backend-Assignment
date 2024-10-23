@@ -26,31 +26,33 @@ command - npm install <belowDependencies> --save
 ________________________
 There are 3 tables users, transactions and categories linked to each other through primary keys and foreign keys
 
-users table with columns:-
-id,	username,	password
+### users table with columns:-
+``` id,	username,	password ```
 
-categories table with columns :-
-id,  name,  type(income or expense),  user_id 
+### categories table with columns :-
+```id,  name,  type(income or expense),  user_id ```
 
-transactions table with columns:-
-id,  type(income or expense),  category_id,  amount,  date,  description,  user_id
+### transactions table with columns:-
+```id,  type(income or expense),  category_id,  amount,  date,  description,  user_id```
 ________________________
 I added some sample categories and transaction details of a User. You can follow the registration of user and then login to generate json web token for authentication and get RestAPI results through CRUD operations
 
 steps to achieve outcome (check the app.http file)
 
-1 - register with given sample username and password
+### 1 - `Register with given sample username and password.`
 
-2 - login with same given sample user credentials. You will receive a jsonToken for authentication in response 
+### 2 - `Login with same given sample user credentials. You will receive a jsonToken for authentication in response.` 
 
-3 - add the Json token for all the RestAPI's for successfully passing the authentication test and also to get the required API results
+### 3 - `Add the Json token for all the RestAPI's for successfully passing the authentication test and also to get the required API results.`
 ________________________
-sample users table details:
+
+### sample users table details:
+```
 {
   "username": "GauravKumar",
   "password": "gaurav@node"
 }
-
+```
 --------------
 
 sample categories table details:-
@@ -84,7 +86,7 @@ Following are the details about RestAPI's
 
 ### 1 GET /transactions
 
-Description: Retrieves all transactions for the authenticated user.
+Description: `Retrieves all transactions for the authenticated user.`
 
 Request:
 Authorization header: Bearer <your-token>
@@ -111,7 +113,7 @@ JSON
 
 ### 2 GET /transactions/:id
 
-Description: Retrieves a specific transaction by ID for the authenticated user.
+Description: `Retrieves a specific transaction by ID for the authenticated user.`
 
 Request:
 Authorization header: Bearer <your-token>
@@ -134,7 +136,7 @@ JSON
 
 ### 3 POST /transactions
 
-Description: Adds a new transaction for the authenticated user.
+Description: `Adds a new transaction for the authenticated user.`
 
 Request:
 Authorization header: Bearer <your-token>
@@ -160,7 +162,7 @@ JSON
 
 ###  4 PUT /transactions/:id
 
-Description: Updates a transaction by ID for the authenticated user.
+Description: `Updates a transaction by ID for the authenticated user.`
 
 Request:
 Authorization header: Bearer <your-token>
@@ -187,7 +189,7 @@ JSON
 
 ### 5 DELETE /transactions/:id
 
-Description: Deletes a transaction by ID for the authenticated user.
+Description: `Deletes a transaction by ID for the authenticated user.`
 
 Request:
 Authorization header: Bearer <your-token>
@@ -205,7 +207,7 @@ JSON
 
 ### 6 GET /reports/monthly-spending
 
-Description: Generates a monthly spending report by category for the authenticated user.
+Description: `Generates a monthly spending report by category for the authenticated user.`
 
 Request:
 Authorization header: Bearer <your-token>
@@ -214,6 +216,7 @@ Response:
 Status code: 200 OK
 Body:
 JSON
+```
 [
     {
         "category_id": 1,
@@ -221,3 +224,4 @@ JSON
     },
     // ... other categories
 ]
+```
