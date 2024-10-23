@@ -15,7 +15,7 @@ ______________________________________________
 
 Install all the following npm dependencies
 
-command - npm install <belowDependencies> --save
+### command - ```npm install <belowDependencies> --save```
 
 - nodemon
 - bcrypt
