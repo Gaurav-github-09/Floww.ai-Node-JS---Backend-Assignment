@@ -88,6 +88,7 @@ Following are the details about RestAPI's
 
 Description: `Retrieves all transactions for the authenticated user.`
 
+```
 Request:
 Authorization header: Bearer <your-token>
 
@@ -108,13 +109,14 @@ JSON
    
     
 ]
-
+```
 -------------------------
 
 ### 2 GET /transactions/:id
 
 Description: `Retrieves a specific transaction by ID for the authenticated user.`
 
+```
 Request:
 Authorization header: Bearer <your-token>
 Path parameter: id (transaction ID)
@@ -131,13 +133,14 @@ JSON
     "date": "2024-10-01",
     "description": "Salary"
 }
-
+```
 -------------------------
 
 ### 3 POST /transactions
 
 Description: `Adds a new transaction for the authenticated user.`
 
+```
 Request:
 Authorization header: Bearer <your-token>
 Body:
@@ -157,13 +160,14 @@ JSON
 {
     "message": "Transaction added successfully"
 }
-
+```
 -------------------------
 
 ###  4 PUT /transactions/:id
 
 Description: `Updates a transaction by ID for the authenticated user.`
 
+```
 Request:
 Authorization header: Bearer <your-token>
 Path parameter: id (transaction ID)
@@ -184,13 +188,13 @@ JSON
 {
     "message": "Transaction updated successfully"
 }
-
+```
 -------------------------
 
 ### 5 DELETE /transactions/:id
 
 Description: `Deletes a transaction by ID for the authenticated user.`
-
+```
 Request:
 Authorization header: Bearer <your-token>
 Path parameter: id (transaction ID)
@@ -202,13 +206,14 @@ JSON
 {
     "message": "Transaction deleted successfully"
 }
-
+```
 -------------------------
 
 ### 6 GET /reports/monthly-spending
 
 Description: `Generates a monthly spending report by category for the authenticated user.`
 
+```
 Request:
 Authorization header: Bearer <your-token>
 
@@ -216,7 +221,7 @@ Response:
 Status code: 200 OK
 Body:
 JSON
-```
+
 [
     {
         "category_id": 1,
