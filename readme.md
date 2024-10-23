@@ -1,4 +1,4 @@
-setup information-
+setup information-(read in code view of git for better clarity)
 
 install all the following npm dependencies
 
