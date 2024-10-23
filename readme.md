@@ -17,13 +17,13 @@ install all the following npm dependencies
 
 command - npm install <belowDependencies> --save
 
-nodemon
-bcrypt
-jsonwebtoken
-express
-sqlite
-sqlite3
-
+- nodemon
+- bcrypt
+- jsonwebtoken
+- express
+- sqlite
+- sqlite3
+________________________
 There are 3 tables users, transactions and categories linked to each other through primary keys and foreign keys
 
 users table with columns:-
@@ -34,7 +34,7 @@ id,  name,  type(income or expense),  user_id
 
 transactions table with columns:-
 id,  type(income or expense),  category_id,  amount,  date,  description,  user_id
-
+________________________
 I added a sample categories and transaction details of a User. You can follow the registration of user process and then login with json token authentication and get RestAPI resutls
 
 steps to achieve outcome (check the app.http file)
@@ -44,7 +44,7 @@ steps to achieve outcome (check the app.http file)
 2 - login with same given sample user credentials. You will receive a jsonToken for authentication in response 
 
 3 - add the Json token for all the RestAPI's for successfully passing the authentication test and also to get the required API results
-
+________________________
 sample users table details:
 {
   "username": "GauravKumar",
