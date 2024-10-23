@@ -72,7 +72,7 @@ id	name	                      type 	           user_id
 
 **sample transactions table details:-**
 ```
-id	type	   category_id	   amount	       date	           description	       user_id
+id	type	   category_id	   amount	       date	           description	          user_id
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 1	income	       1	        5000.00	     2024-10-01	        Monthly salary	          1
 2	income	       2	        2000.00	     2024-10-15	        Dividend payment	        1
