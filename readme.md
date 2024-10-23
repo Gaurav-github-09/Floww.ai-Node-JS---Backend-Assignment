@@ -11,9 +11,9 @@ Develop a RESTful API for managing personal financial records. Users can record 
 - **Backend Framework**: Node.js with Express.js
 - **Database**: SQLite
 ______________________________________________
-setup information-(read in code view of git for better clarity)
+### Setup Information
 
-install all the following npm dependencies
+Install all the following npm dependencies
 
 command - npm install <belowDependencies> --save
 
@@ -35,7 +35,7 @@ id,  name,  type(income or expense),  user_id
 transactions table with columns:-
 id,  type(income or expense),  category_id,  amount,  date,  description,  user_id
 ________________________
-I added a sample categories and transaction details of a User. You can follow the registration of user process and then login with json token authentication and get RestAPI resutls
+I added a sample categories and transaction details of a User. You can follow the registration of user process and then login with json token authentication and get RestAPI results through CRUD operations
 
 steps to achieve outcome (check the app.http file)
 
@@ -82,7 +82,7 @@ ______________________________
 
 Following are the details about RestAPI's
 
-1 GET /transactions
+### 1 GET /transactions
 
 Description: Retrieves all transactions for the authenticated user.
 
@@ -109,7 +109,7 @@ JSON
 
 -------------------------
 
-2 GET /transactions/:id
+### 2 GET /transactions/:id
 
 Description: Retrieves a specific transaction by ID for the authenticated user.
 
@@ -132,7 +132,7 @@ JSON
 
 -------------------------
 
-3 POST /transactions
+### 3 POST /transactions
 
 Description: Adds a new transaction for the authenticated user.
 
@@ -158,7 +158,7 @@ JSON
 
 -------------------------
 
-4 PUT /transactions/:id
+###  4 PUT /transactions/:id
 
 Description: Updates a transaction by ID for the authenticated user.
 
@@ -185,7 +185,7 @@ JSON
 
 -------------------------
 
-5 DELETE /transactions/:id
+### 5 DELETE /transactions/:id
 
 Description: Deletes a transaction by ID for the authenticated user.
 
@@ -203,7 +203,7 @@ JSON
 
 -------------------------
 
-6 GET /reports/monthly-spending
+### 6 GET /reports/monthly-spending
 
 Description: Generates a monthly spending report by category for the authenticated user.
 
