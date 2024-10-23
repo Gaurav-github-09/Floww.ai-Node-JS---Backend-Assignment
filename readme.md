@@ -74,13 +74,13 @@ id	name	                      type 	           user_id
 ```
 id	type	   category_id	   amount	       date	           description	       user_id
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-1	income	       1	        5000.00	     2024-10-01	     Monthly salary	          1
-2	income	       2	        2000.00	     2024-10-15	     Dividend payment	        1
-3	expense	       3	        1000.00	     2024-10-05	     Monthly rent	            1
-4	expense        4	         200.00	     2024-10-10	     Electricity bill	        1
-5	expense	       5	         500.00	     2024-10-15	     Groceries	              1
-6	expense	       6	         300.00	     2024-10-20	     Fuel cost	              1
-7	expense	       7	         100.00	     2024-10-25	     Movie tickets	          1
+1	income	       1	        5000.00	     2024-10-01	        Monthly salary	          1
+2	income	       2	        2000.00	     2024-10-15	        Dividend payment	        1
+3	expense	       3	        1000.00	     2024-10-05	        Monthly rent	            1
+4	expense        4	         200.00	     2024-10-10	        Electricity bill	        1
+5	expense	       5	         500.00	     2024-10-15	        Groceries	                1
+6	expense	       6	         300.00	     2024-10-20	        Fuel cost	                1
+7	expense	       7	         100.00	     2024-10-25	        Movie tickets	            1
 ```
 ______________________________
 
