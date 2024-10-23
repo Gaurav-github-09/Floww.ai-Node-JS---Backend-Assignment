@@ -1,3 +1,16 @@
+# Node JS - Backend Assignment
+
+### Assignment: Personal Expense Tracker
+
+### Objective:
+
+Develop a RESTful API for managing personal financial records. Users can record their income and expenses, retrieve past transactions, and get summaries by category or time period.
+
+### Tools and Technologies:
+
+- **Backend Framework**: Node.js with Express.js
+- **Database**: SQLite
+
 setup information-(read in code view of git for better clarity)
 
 install all the following npm dependencies
@@ -44,13 +57,13 @@ sample categories table details:-
 
 id	name	                    type 	         user_id
 
-1	Salary	                   income	            1
-2	Investment Income	       income	            1
-3	Rent	                   expense	            1
-4	Utilities	               expense	            1
-5	Groceries	               expense	            1
+1	Salary	                   income	              1
+2	Investment Income	         income	              1
+3	Rent	                     expense	            1
+4	Utilities	                 expense	            1
+5	Groceries	                 expense	            1
 6	Transportation	           expense	            1
-7	Entertainment	           expense	            1
+7	Entertainment	             expense	            1
 
 --------------
 
@@ -58,13 +71,13 @@ sample transactions table details:-
 
 id	type	   category_id	 amount	       date	       description	  user_id
 
-1	income	       1	     5000.00	2024-10-01	 Monthly salary	    1
-2	income	       2	     2000.00	2024-10-15	 Dividend payment	1
-3	expense	       3	     1000.00	2024-10-05	 Monthly rent	    1
-4	expense        4	      200.00	2024-10-10	 Electricity bill	1
-5	expense	       5	      500.00	2024-10-15	 Groceries	        1
-6	expense	       6	      300.00	2024-10-20	 Fuel cost	        1
-7	expense	       7	      100.00	2024-10-25	 Movie tickets	    1
+1	income	       1	     5000.00	2024-10-01	 Monthly salary	         1
+2	income	       2	     2000.00	2024-10-15	 Dividend payment	       1
+3	expense	       3	     1000.00	2024-10-05	 Monthly rent	           1
+4	expense        4	      200.00	2024-10-10	 Electricity bill	       1
+5	expense	       5	      500.00	2024-10-15	 Groceries	             1
+6	expense	       6	      300.00	2024-10-20	 Fuel cost	             1
+7	expense	       7	      100.00	2024-10-25	 Movie tickets	         1
 ______________________________
 
 Following are the details about RestAPI's
