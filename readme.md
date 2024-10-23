@@ -55,17 +55,17 @@ ________________________
 ```
 --------------
 
-sample categories table details:-
+**sample categories table details:-**
 
-id	name	                    type 	         user_id
+|id|	name	            |         type 	       |  user_id |
+|1 |	Salary	          |         income	     |       1  |
+|2 |	Investment Income	|         income	     |       1  |
+|3 |	Rent	            |        expense	     |       1  |
+|4 |	Utilities	        |         expense	     |       1  |
+|5 |	Groceries	        |         expense	     |       1  |
+|6 |	Transportation	  |        expense	     |       1  |
+|7 |	Entertainment	    |         expense	     |       1  |
 
-1	Salary	                   income	              1
-2	Investment Income	         income	              1
-3	Rent	                     expense	            1
-4	Utilities	                 expense	            1
-5	Groceries	                 expense	            1
-6	Transportation	           expense	            1
-7	Entertainment	             expense	            1
 
 --------------
 
