@@ -70,3 +70,6 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikdhd
 
 GET http://localhost:3000/reports/monthly-spending/
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdhdXJhdkt1bWFyIiwidXNlcklkIjoxLCJpYXQiOjE3Mjk2NDUwMzB9.AIxUuwkhCeZEPDKEf89IburVwLqAVb4yRiVxfe9taUI
+
+
+
