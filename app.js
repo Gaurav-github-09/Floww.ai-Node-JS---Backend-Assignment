@@ -127,6 +127,7 @@ app.get('/transactions/', authenticateToken, async (request, response) => {
 app.get('/transactions/:id/', authenticateToken, async (request, response) => {
   const {username, userId} = request
   const {id} = request.params
+  let transactionId=id;
   console.log(username, userId, transactionId)
   const oneTransactionQuery = `SELECT * FROM transactions where id= ${transactionId};`
   const oneTransaction = await db.get(oneTransactionQuery)
